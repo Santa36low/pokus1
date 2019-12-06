@@ -2,12 +2,6 @@ const discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-  client.on("message", (message)=>{
-    if (message.author.equals(client.user)) return;
-
-    if (!message.content.startsWith(prefix)) return;
-    
-    if(message.content.startsWith(prefix + "delete")){
         let args = message.content.split(" ").slice(1);
         let author = message.member;
         let role = message.guild.roles.find('name', "Moderator");
@@ -26,9 +20,7 @@ module.exports.run = async (bot, message, args) => {
             message.channel.bulkDelete(args[0]);
             message.author.send("✅ Hotovo smazáno" + args[0] + " messages");
             return;
-        
-        }
-    }
+    
 
 };
 
