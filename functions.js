@@ -22,7 +22,7 @@ module.exports = (bot) => {
         console.log(`Loading ${jsfiles.length} příkazy...`);
         jsfiles.forEach((f, i) => {
             let props = require(`./commands/${f}`);
-            console.log(`${i + 1}: ${f} loaded!`);
+            console.log(`${i + 1}: ${f} načteno!`);
             bot.commands.set(props.help.name, props);
             props.help.aliases.forEach(alias => {
                 bot.aliases.set(alias, props.help.name);
