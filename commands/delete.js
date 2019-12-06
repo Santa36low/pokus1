@@ -2,6 +2,8 @@ const discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
+    var args = message.content.substring(PREFIX.length).split(" ");        
+        
         let args = message.content.split(" ").slice(1);
         let author = message.member;
         let role = message.guild.roles.find('name', "Moderator");
@@ -21,7 +23,7 @@ module.exports.run = async (bot, message, args) => {
             message.author.send("✅ Hotovo smazáno" + args[0] + " messages");
             return;
     
-    var args = message.content.substring(PREFIX.length).split(" ");
+
 };
 
 module.exports.help = {
