@@ -1,8 +1,9 @@
 const discord = require("discord.js");
 
+
 module.exports.run = async (bot, message, args) => {
 
-    var args = message.content.substring(prefix.length).split(" ");        
+       
         
  
         let author = message.member;
