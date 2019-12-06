@@ -22,6 +22,8 @@ module.exports.run = async (bot, message, args) => {
             message.channel.bulkDelete(args[0]);
             message.author.send("✅ Hotovo smazáno" + args[0] + " messages");
             return;
+        
+        }
     
 
 };
