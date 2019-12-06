@@ -25,6 +25,6 @@ if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * for
 };
 
 module.exports.help = {
-  name: "delete",
-  aliases: ['del']
+  name: "?",
+  aliases: ['otazka', 'otázka']
 };
