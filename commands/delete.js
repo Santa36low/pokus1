@@ -2,9 +2,9 @@ const discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-    var args = message.content.substring(PREFIX.length).split(" ");        
+    var args = message.content.substring(prefix.length).split(" ");        
         
-        let args = message.content.split(" ").slice(1);
+ 
         let author = message.member;
         let role = message.guild.roles.find('name', "Moderator");
         if(message.member.roles.has(role.id)){
