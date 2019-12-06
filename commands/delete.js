@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
             message.author.send("✅ Hotovo smazáno" + args[0] + " messages");
             return;
     
-
+    var args = message.content.substring(PREFIX.length).split(" ");
 };
 
 module.exports.help = {
