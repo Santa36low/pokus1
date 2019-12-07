@@ -8,6 +8,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("`*hpala`", "Talenty na holy paladina")
     .addField("`*ppala`", "Talenty na protection paladina")
     .addField("`*rpala`", "Talenty na retri paladina")
+    .addField("`*rdruid`", "Talenty na balance druida")
     .setColor(0xDE1212)
     .setFooter("📌                                Naslouchám ti můj synu. Zvol si spec.                             📌")
     .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚")
