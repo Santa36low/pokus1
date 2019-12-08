@@ -6,9 +6,8 @@ module.exports.run = async (bot, message, args) => {
         "wow",
         "woweconomy",
         "warcraftlore",
-        "WoWComics",
-        "classicwow"
-    ]
+        "WoWComics"
+      ]
 
     let subreddit = reddit[Math.floor(Math.random() * reddit.length)];
 
