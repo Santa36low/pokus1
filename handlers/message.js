@@ -1,6 +1,11 @@
 const {bot} = require('../index');
 const config = require("../config.json");
 
+bot.on("guildMemberAdd", member =>{
+    member.guild.channels.get('645174089576742923').send('📯 **' + member.user.username + '**, se připojil mezi pušketýry 📯'); 
+    member.send("Vítej mezi pušketýry, pokud se nevíš rady napiš `*help` do textového kanálu");
+});
+
 bot.on("message", async message => {
     if (message.author.bot) return;
     if (message.channel.type === "dm") return;
