@@ -3,7 +3,7 @@ const config = require("../config.json");
 
 bot.on("guildMemberAdd", member =>{
     member.guild.channels.get('645174089576742923').send('📯 **' + member.user.username + '**, se připojil mezi pušketýry 📯'); 
-    member.send("Vítej mezi pušketýry, pokud se nevíš rady napiš `*help` do textového kanálu");
+    member.send("🎉🎈 Vítej mezi pušketýry, pokud se nevíš rady napiš `*help` do textového kanálu. 🎈🎉");
 });
 
 bot.on("message", async message => {
