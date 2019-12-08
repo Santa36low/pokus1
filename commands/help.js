@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     
     let embed = new discord.RichEmbed()
                 .addField("❓ `*?`", "Položíš Kardinalovi otázku.")
-                .addField("🎶 `*dj`", "Příkazy pro DJ bota. Hrajeme na vaše pčání.")
+                .addField("🎶 `*dj`", "Příkazy pro DJ bota. Hrajeme na vaše přání.")
                 .addField("💊 `*spec`", "Zobrazí guidy ma classy a specy.")
                 .addField("🗑 `*delete xx`", "Smaže předchozí zprávi xx - počet zpráv.")
                 .addField("🔰 `*ali`", "Ukaže banner alliance.")
