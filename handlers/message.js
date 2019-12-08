@@ -1,10 +1,6 @@
 const {bot} = require('../index');
 const config = require("../config.json");
 
-bot.on("guildMemberAdd" ,(message, member) => {
-    message.channel.send("Welcome")
-});
-
 bot.on("message", async message => {
     if (message.author.bot) return;
     if (message.channel.type === "dm") return;
