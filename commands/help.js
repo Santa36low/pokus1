@@ -15,7 +15,6 @@ module.exports.run = async (bot, message, args) => {
                 .addField("☯ `*ikon`", "Ikonky pro channely.")
                 .addField("🗿 `*meme`", "Nahraje random meme z Radittu WoW obrázky.")
                 .setAuthor('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.sword.png')
-                .setImage("Autor", message.author.avatarURL')
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
                 .setTitle("✅Zvládl jsi to zde jsou příkazy! ") 
