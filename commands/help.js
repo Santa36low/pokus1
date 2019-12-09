@@ -14,9 +14,11 @@ module.exports.run = async (bot, message, args) => {
                 .addField("📜 `*hlasky`", "Napíše nahodnou hlášku.")
                 .addField("☯ `*ikon`", "Ikonky pro channely.")
                 .addField("🗿 `*meme`", "Nahraje random meme z Radittu WoW obrázky.")
+                .setAuthor("Autor", message.author.avatarURL)
+                .setImage('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/ali.jpg')
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
-                .setTitle("Nečum", {files: ["https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/ali.jpg"]}) 
+                .setTitle("Nečum") 
                 .setThumbnail('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/sword-icon-32147%20(1).png')
     message.channel.send(embed);
 
