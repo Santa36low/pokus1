@@ -11,10 +11,10 @@ module.exports.run = async (bot, message, args) => {
     .addField("`*bdruid`", "Talenty na balance druida")
     .addField("`*rdruid`", "Talenty na resto druida")
     .addField("`*fdruid`", "Talenty na feral druida")
+    .setAuthor('Kardinal Richelieu je připravený. ✅', 'https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.sword.png')
     .setColor(0xDE1212)
-    .setFooter("📌                                Naslouchám ti můj synu. Zvol si spec.                             📌")
-    .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚")
-    .setThumbnail('http://imgWorld.cz/s3/WNTKewOsPE.png')
+    .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
+    .setThumbnail('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/sword-icon-32147%20(1).png')
     message.channel.send(embed);
 
 };
