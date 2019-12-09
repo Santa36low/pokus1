@@ -15,10 +15,10 @@ module.exports.run = async (bot, message, args) => {
                 .addField("🔁 `!loopqueue`", "Opakuje celý playlist.")
                 .addField("⏹ `!clear`", "Vymaže playlist.")
                 .addField("📶 `!ping`", "Zjisti odezvu bota na Discordu.")
-                .setColor(0x0000FF)
-                .setFooter("📌                                         Co my necháš zahrát?                                         📌")
-                .setTitle("🎚                     ✅Zvládl jsi to zde jsou příkazy!                   🎚")
-                .setThumbnail('http://imgWorld.cz/s3/WNTKewOsPE.png')
+                .setAuthor('Kardinal Richelieu je připravený. ✅', 'https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.sword.png')
+                .setColor(0xDE1212)
+                .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
+                .setThumbnail('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/sword-icon-32147%20(1).png')
     message.channel.send(embed);
 
 };
