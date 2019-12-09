@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
                 .addField("🗿 `*meme`", "Nahraje random meme z Radittu WoW obrázky.")
                 .setColor(0xDE1212)
                 .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
-                .setTitle("Kardinal Richelieu k vašim službám!" \n "{files: ["https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/black-sword-icon-0.jpg"]}                     ✅Zvládl jsi to zde jsou příkazy!") 
+                .setTitle("Kardinal Richelieu k vašim službám!" + "{files: ["https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/black-sword-icon-0.jpg"]} " + "                  ✅Zvládl jsi to zde jsou příkazy!") 
                 .setThumbnail('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/sword-icon-32147-(1).png')
     message.channel.send(embed);
 
