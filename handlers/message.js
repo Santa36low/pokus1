@@ -3,7 +3,7 @@ const config = require("../config.json");
 
 bot.on("guildMemberAdd", member =>{
     member.guild.channels.get('645174089576742923').send('📯 **' + member.user.username + '**, se připojil mezi pušketýry 📯');
-    member.guild.channels.get('645174089576742923').send({files: ["https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.pus.png"]});
+    member.send({files: ["https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.pus.png"]});
     member.send("🎉🎈 Vítej mezi pušketýry, pokud se nevíš rady napiš `*help` do textového kanálu. 🎈🎉");
 });
 
