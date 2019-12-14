@@ -11,10 +11,10 @@ module.exports.run = async (bot, message, args) => {
         .addField("**Jméno:**", `${message.author.username}`, true)
         .addField("**ID:**", `${message.author.id}`, true)
         .addField("**Status:**", `${message.author.presence.status}`, true)
-        .addField("**Jmeno Serveru:**", `${message.guild.name}`, true)
-        .addField("**Guild Owner:**", `${message.guild.owner}`, true)
-        .addField("**Member Count:**", `${message.guild.memberCount}`, true)
-        .addField("**Role:**", `${message.guild.roles.size}`, true)
+        .addField("**Jméno Serveru:**", `${message.guild.name}`, true)
+        .addField("**Jméno na Serveru:**", `${message.guild.owner}`, true)
+        .addField("**Počet Členů:**", `${message.guild.memberCount}`, true)
+        .addField("**Role:**", `${role.name}`, true)
         .addField("**Vytvoření Učtu:**", `${message.author.createdAt}`, true)
         .setFooter(`Kardinal Richelieu`, bot.user.displayAvatarURL);
 
