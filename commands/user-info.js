@@ -4,7 +4,7 @@ const discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 
     let embed = new discord.RichEmbed()
-        .setColor(0x75d340)
+        .setColor(0xDE1212)
         .setTitle("Informace")
         .setThumbnail(message.guild.iconURL)
         .setAuthor(`${message.author.username}`, message.author.displayAvatarURL)
@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("**Jméno Serveru:**", `${message.guild.name}`, true)
         .addField("**Jméno na Serveru:**", `${message.guild.owner}`, true)
         .addField("**Počet Členů:**", `${message.guild.memberCount}`, true)
-        .addField("**Role:**", `${message.author.roles}`, true)
+        .addField("**Role:**", `${message.author.roles.name}`, true)
         .addField("**Vytvoření Učtu:**", `${message.author.createdAt}`, true)
         .setFooter(`Kardinal Richelieu`, bot.user.displayAvatarURL);
 
