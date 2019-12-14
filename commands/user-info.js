@@ -16,7 +16,6 @@ module.exports.run = async (bot, message, args) => {
         .setFooter(`TestBot | Footer`, bot.user.displayAvatarURL);
 
     message.channel.send(uEmbed);
-    }
 };
 
 module.exports.help = {
