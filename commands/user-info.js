@@ -5,15 +5,14 @@ module.exports.run = async (bot, message, args) => {
 
     let embed = new discord.RichEmbed()
         .setColor(0x75d340)
-        .setTitle("User Info")
+        .setTitle("Tvoje Informace")
         .setThumbnail(message.guild.iconURL)
-        .setAuthor(`${message.author.username} Info`, message.author.displayAvatarURL)
-        .addField("**Username:**", `${message.author.username}`, true)
-        .addField("**Discriminator:**", `${message.author.discriminator}`, true)
+        .setAuthor(`${message.author.username}`, message.author.displayAvatarURL)
+        .addField("**Jméno:**", `${message.author.username}`, true)
         .addField("**ID:**", `${message.author.id}`, true)
         .addField("**Status:**", `${message.author.presence.status}`, true)
-        .addField("**Created At:**", `${message.author.createdAt}`, true)
-        .setFooter(`TestBot | Footer`, bot.user.displayAvatarURL);
+        .addField("**Vytvoření Učtu:**", `${message.author.createdAt}`, true)
+        .setFooter(`Kardinal Richelieu`, bot.user.displayAvatarURL);
 
     message.channel.send(embed);
 };
