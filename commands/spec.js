@@ -13,6 +13,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("`*fdruid`", "Talenty na feral druida")
     .setAuthor('Kardinal Richelieu je připravený. ✅', 'https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.sword.png')
     .setColor(0xDE1212)
+    .setTitle('Vyber charakter a spec.')
     .setFooter("📌                                         Naslouchám ti můj synu.                                             📌")
     .setThumbnail('https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/sword-icon-32147%20(1).png')
     message.channel.send(embed);
