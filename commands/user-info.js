@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("**Jméno Serveru:**", `${message.guild.name}`, true)
         .addField("**Jméno na Serveru:**", `${message.guild.owner}`, true)
         .addField("**Počet Členů:**", `${message.guild.memberCount}`, true)
-        .addField("**Role:**", `${role.name}`, true)
+        .addField("**Role:**", `${message.guild.roles.name}`, true)
         .addField("**Vytvoření Učtu:**", `${message.author.createdAt}`, true)
         .setFooter(`Kardinal Richelieu`, bot.user.displayAvatarURL);
 
