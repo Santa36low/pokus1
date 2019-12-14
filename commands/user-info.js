@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("**Created At:**", `${message.author.createdAt}`, true)
         .setFooter(`TestBot | Footer`, bot.user.displayAvatarURL);
 
-    message.channel.send(uEmbed);
+    message.channel.send(embed);
 };
 
 module.exports.help = {
