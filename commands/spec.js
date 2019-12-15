@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 
     
     let embed = new discord.RichEmbed()
-    .addField("📘 `*hpala`", "Talenty na holy paladina")
+    .addField("**Talenty na paladina**", "📘 `*hpala` - Talenty na holy paladina \n 📘 `*ppala` - Talenty na protection paladina \n 📘 `*rpala` - Talenty na retri paladina")
     .addField("📘 `*ppala`", "Talenty na protection paladina")
     .addField("📘 `*rpala`", "Talenty na retri paladina")
     .addField("📕 `*bdruid`", "Talenty na balance druida")
