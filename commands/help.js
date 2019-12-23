@@ -12,7 +12,6 @@ module.exports.run = async (bot, message, args) => {
                 .addField("🔰 `*ali`", "Ukaže banner alliance.")
                 .addField("🔰 `*hord`", "Ukaže banner hordy.")
                 .addField("📜 `*hlasky`", "Napíše nahodnou hlášku.")
-                .addField("☯ `*ikon`", "Ikonky pro channely.")
                 .addField("🗿 `*meme`", "Nahraje random meme z Radittu WoW obrázky.")
                 .addField("⛔ `*gm`", "Příkazy pro Moderátory")    
                 .setAuthor('Kardinal Richelieu je připravený. ✅', 'https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.sword.png')
