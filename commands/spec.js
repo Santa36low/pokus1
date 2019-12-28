@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("**Talenty na Druida**", "📕 `*bdruid` - Talenty na balance druida \n 📕 `*rdruid` - Talenty na resto druida \n 📕 `*fdruid` - Talenty na feral druida")
     .addField("**Talenty na Samana**", "📗 `*rsaman` - Talenty na resto samana \n 📗 `*elesaman` - Talenty na elemental samana \n 📗 `*enhasaman` - Talenty na enhacement samana")
     .addField("**Talenty na Maga**", "📙 `*fmage` - Talenty na fire maga")
-    .addField("**Talenty na Priesta**", "📔 `*spriest` - Talenty na shadow priesta")
+    .addField("**Talenty na Priesta**", "📔 `*spriest` - Talenty na shadow priesta \n 📔 `*hpriest` - Talenty na holy priesta")
     .setAuthor('Kardinal Richelieu je připravený. ✅', 'https://raw.githubusercontent.com/Santa36low/pokus1/master/obr%C3%A1zky/logo.sword.png')
     .setColor(0xDE1212)
     .setTitle('Vyber charakter a spec.')
