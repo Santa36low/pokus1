@@ -5,6 +5,7 @@ module.exports.run = async (bot, message, args) => {
 
     
     let embed = new discord.RichEmbed()
+                .addField("🔍 `!search`", "Vyhledá skladbu na Youtube.com")
                 .addField("▶ `!play`", "Přehraje playlist z Youtube.com, soundcloud.com ...")
                 .addField("⏯ `!resume`", "Pausne a znovu pustí hudbu.")
                 .addField("📀 `!join`", "Připojí Rythm bota na hlasový kanál.")
