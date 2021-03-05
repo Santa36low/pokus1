@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
  
         let author = message.member;
         let role = message.guild.roles.find('name', "Hero");
-        if(message.member.roles.has(role.id)){
+        if(message.member.roles.has(role)){
             if(!args[0]){
                 message.delete();
                 message.author.send("Chybí číslo od 2 do 100 - počet zpráv kolik smažu");
