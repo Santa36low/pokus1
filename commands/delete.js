@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
         
  
         let author = message.member;
-        let role = message.guild.roles.find('name', "Hero");
+        let role = message.guild.roles.cache.get("817335479820746762");
         if(message.member.roles.has(role)){
             if(!args[0]){
                 message.delete();
