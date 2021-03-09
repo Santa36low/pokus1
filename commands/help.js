@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
                 .addField("🎶 `*dj`", "Příkazy pro DJ bota. Hrajeme na vaše přání.")
                 .addField("💊 `*spec`", "Zobrazí guidy ma classy a specy.")
                 .addField("🔰 `*ali`", "Ukaže banner alliance.")
-                .addField("🔰 `*hord`", "Ukaže banner hordy.")
+                .addField("🔰 `*horde`", "Ukaže banner hordy.")
                 .addField("📜 `*hlasky`", "Napíše nahodnou hlášku.")
                 .addField("🗿 `*meme`", "Nahraje random meme z Radittu WoW obrázky.")
                 .addField("⛔ `*gm`", "Příkazy pro Moderátory")    
